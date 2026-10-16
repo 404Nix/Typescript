@@ -42,4 +42,4 @@ function abcd(obj) {
     obj.getUserData("nix");
 }
 abcd(obj);
-//# sourceMappingURL=ts1.js.map
+//# sourceMappingURL=basic.js.map
