@@ -51,7 +51,7 @@ let b: string = "23";
 
 // Type Annotation
 /**
- * Assigninga type to variable is Annotation
+ * Assigning a type to variable is Annotation
  * example: let a:number;
  *          let b:number | string; (later in the course)
  */
@@ -123,7 +123,7 @@ type IUser = {
 };
 
 type IAdmin = IUser & {
-    getUserData(user: string): void;
+    getUserData: (username: string) => void;
 };
 
 let obj = {
